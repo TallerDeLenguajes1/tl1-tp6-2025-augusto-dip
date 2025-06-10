@@ -179,13 +179,13 @@ foreach (var caracter in cadena)
     Console.WriteLine(caracter);
 }
 
-if (cadena.ToLower().Contains("hola"))
+if (cadena.ToLower().Contains("el"))
 {
-    Console.WriteLine("\"hola\" se encuentra dentro de la cadena: " + cadena);
+    Console.WriteLine("\"el\" se encuentra dentro de la cadena: " + cadena);
 }
 else
 {
-    Console.WriteLine("\"hola\" no se encuentra dentro de la cadena: " + cadena);
+    Console.WriteLine("\"el\" no se encuentra dentro de la cadena: " + cadena);
 }
 
 Console.WriteLine("Cadena en mayusculas: " + cadena.ToUpper());
